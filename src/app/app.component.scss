@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+}
+
+.routers-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 15px 30px;
+
+  &__item {
+    a {
+      font-size: 20px;
+      font-weight: 600;
+      color: #c19f78;
+      text-decoration: none;
+      transition: color .4s ease;
+    }
+
+    a:hover {
+      color: #6a553e;
+    }
+  }
+}
